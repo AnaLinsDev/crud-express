@@ -1,0 +1,35 @@
+
+GET http://localhost:3000/products/1
+
+###
+
+GET http://localhost:3000/products
+
+###
+
+POST http://localhost:3000/products/add
+Content-Type: application/json
+
+{
+    "name" : "Teclado Power",
+    "price" : 100,
+    "quant" : 5
+}
+
+###
+
+PUT http://localhost:3000/products/update/1
+Content-Type: application/json
+
+{
+    "name" : "Teclado Power v2",
+    "price" : 100,
+    "quant" : 5
+}
+
+###
+
+DELETE  http://localhost:3000/products/delete/1
+
+
+
